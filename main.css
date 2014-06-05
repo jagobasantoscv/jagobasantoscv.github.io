@@ -73,23 +73,23 @@
 }
 .man{
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/germanrules/germanrules.github.io/master/img/glyph/man.png);
+  background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/man.png);
 }
 .globe{
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/germanrules/germanrules.github.io/master/img/glyph/globe.png);
+  background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/globe.png);
 }
 .chart{
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/germanrules/germanrules.github.io/master/img/glyph/chart.png);
+  background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/chart.png);
 }
 .road{
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/germanrules/germanrules.github.io/master/img/glyph/road.png);
+  background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/road.png);
 }
 .search{
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/germanrules/germanrules.github.io/master/img/glyph/search.png);
+  background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/search.png);
 }
 /*content*/
 .content{align-content:center;}
@@ -97,7 +97,7 @@
   margin-left: auto;
 margin-right:auto;}
 /*section.css*/
-#Idcontent1 {       background:url(https://raw.githubusercontent.com/germanrules/germanrules.github.io/master/img/Computer.jpg), #104E8B;
+#Idcontent1 {       background:url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/Computer.jpg), #104E8B;
 background-repeat:no-repeat;
 background-position:center center; 
 background-origin:padding-box;
@@ -249,7 +249,7 @@ section{
   padding: 100px 10px 550px;
   box-shadow: 0px 3px 1px rgba(0,0,0,0.3);
 }
-#Idcontent6 { background:url(https://raw.githubusercontent.com/germanrules/germanrules.github.io/master/img/flowerchucker2.jpg), #FFF;
+#Idcontent6 { background:url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/flowerchucker2.jpg), #FFF;
 background-repeat:no-repeat;
 background-origin:padding-box;
   list-style: none outside none;
