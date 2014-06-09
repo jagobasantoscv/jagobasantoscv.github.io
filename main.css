@@ -93,10 +93,12 @@
 }
 /*content*/
 .content{align-content:center;}
-.quote{ padding: 10px 20px;
+.quote{ padding: 30px 20px;
   margin-left: auto;
 margin-right:auto;
 line-height:normal;
+  text-align:justify;
+  text-indent:50px;
 }
 /*section.css*/
 #Idcontent1 {       background:url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/Computer.jpg), #104E8B;
