@@ -293,8 +293,7 @@ height: 100%;
   line-height: 1.6em;
 }
 .bg {
-background-image:url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/Cows.jpg');
-  background-size:cover;
+background:url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/moveworld.jpg');
   position:fixed;
     top:0;
     bottom:0;
