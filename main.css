@@ -293,6 +293,10 @@ height: 100%;
   line-height: 1.6em;
 }
 .bg {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 background:url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/moveworld.jpg');
   position:fixed;
     top:0;
