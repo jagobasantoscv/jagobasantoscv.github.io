@@ -165,14 +165,13 @@ ul.clips a:hover {
   text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.74);
 }
 #skills{
+  background-color: rgba(130, 217, 236, 0.28);
   margin-top:100px;
   margin-left:auto;
   margin-right:auto;
-  border: 1px solid black; 
   width:600px;
   font-size: 200%;
   padding: 5%;
-  background-color:rgba(140, 202, 242, 0.62);
 }
 .barBg {
 box-sizing:content-box;
