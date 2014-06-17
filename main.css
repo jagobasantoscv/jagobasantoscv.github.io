@@ -220,7 +220,7 @@ height:30px;
 border-radius: 12px;
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=’#7aff32′, endColorstr=’#54a6e5′,GradientType=0 );
   -webkit-transition:width 2s; /* For Safari 3.1 to 6.0 */
-transition:width 2s;
+transition:width 1s;
 }
 .laukia:hover{
 width:100%;
@@ -261,7 +261,7 @@ background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transpa
 }
 section{
   padding: 100px 10px 550px;
-  box-shadow: 0px 3px 1px rgba(0,0,0,0.3);
+  box-shadow: 2px 8px 2px rgba(0,0,0,0.3);
 }
 #Idcontent6 { background:url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/flowerchucker2.jpg), #FFF;
 background-repeat:no-repeat;
@@ -280,15 +280,28 @@ padding-left: 400px;
 margin: 10px auto;
 }
 /*Fonts and design*/
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative
+}
 body {
-background-image:url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/cows.jpg');
-background-size:cover;
-background-attachment:fixed;
+height: 100%;
    margin: 0;
-  padding: 0;
+    padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1vw;
   line-height: 1.6em;
+}
+.bg {
+background-image:url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/Cows.jpg');
+  background-size:cover;
+  position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1
 }
 header{
   font-family: 'Shadows Into Light', cursive;
