@@ -1,4 +1,14 @@
-
+/*LOADING*/
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+/*navigation barra*/
 #navbar { 
   position: fixed;
   right:0;
@@ -313,11 +323,15 @@ header{
 }
 .CVHeader1{
    font-size: 70px;
-  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.74);
-  height:150px;
+  height:190px;
   text-align: center;
   vertical-align: middle;
-line-height: 150px;
+line-height: 195px;
+font-family: 'Oswald', sans-serif;
+  background-color:white;
+  background-image:url('http://www.info4carekids.org.uk/images/contentPage/TitleBoxGreen.png');
+  background-size:cover;
+ 
 }
 
 @font-face {
