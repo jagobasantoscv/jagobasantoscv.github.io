@@ -1,8 +1,12 @@
+var scroll_timer;
+    var displayed = false;
+    var $goTop = $('#goTop a');
+    var $window = $(window);
+    var top = $(document.body).children(0).position().top;
 /*navigation header*/
 $(document).on('scroll',function(){
                 
-        // menu show and hidde
-        
+        // menu show and hidde       
         if(($(document).scrollTop()+1)>($("#Idcontent1").height())){
             $("header").removeClass("hhidden").addClass("hshowed");
         } else{
