@@ -45,12 +45,30 @@ $(window).load(function() {
 
 /*maps*/
 function initialize() {
-  var map_canvas = document.getElementById('map');
+  var myLatlng = new google.maps.LatLng(47.412400, 9.743790);
   var map_options = {
-    center: new google.maps.LatLng(47.412400, 9.743790),
-    zoom: 12,
+    center: myLatlng,
+    zoom: 8,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
+    zoomControl:false
   }
-  var map = new google.maps.Map(map_canvas, map_options)
+  var map = new google.maps.Map(document.getElementById('map'), map_options);
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'I live here!'
+  });
+
   }
 google.maps.event.addDomListener(window, 'load', initialize);
+
+function loadScript() {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&' +
+      'callback=initialize';
+  document.body.appendChild(script);
+}
+window.onload = loadScript;
+
+/*position map markers*/
