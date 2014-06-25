@@ -64,8 +64,7 @@ function initialize() {
       title: 'I live here!'
   });
 
-  }
-google.maps.event.addDomListener(window, 'load', initialize);
+}
 
 function loadScript() {
   var script = document.createElement('script');
@@ -74,6 +73,8 @@ function loadScript() {
       'callback=initialize';
   document.body.appendChild(script);
 }
+
 window.onload = loadScript;
+
 
 /*position map markers*/
