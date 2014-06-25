@@ -106,15 +106,31 @@
     width: 100%;
     background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/search.png);
   }
-  /*content*/
-  .content{align-content:center;}
-  .quote{ padding: 30px 20px;
-    margin-left: auto;
-  margin-right:auto;
-  line-height:normal;
-    text-align:justify;
-    text-indent:50px;
-  }
+.social-slide {
+  cursor:pointer;
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  float: left;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.social-slide:hover {
+  background-position: 0px -48px;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+.usoa{
+  background-image: url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/usoa.png');
+}
+.gmail{
+   background-image: url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/gmail.png');
+}
+.linkedin{
+   background-image: url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/linkedin.png');
+}
   /*section.css*/
   #Idcontent1 {       background:url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/Computer.jpg), #104E8B;
   background-repeat:no-repeat;
@@ -275,20 +291,18 @@
   #Idcontent6 { background:url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/flowerchucker2.jpg), #FFF;
   background-repeat:no-repeat;
   background-origin:padding-box;
-    list-style: none outside none;
     background-position:0% 0%, 0% 0%;
   }
+#ContactInfo{
+    padding-left: 50%;
+    margin: 10px auto;
+}
 
   #worldMap img{
   width:100%; 
   height:100%;
   }
-  /*content6*/
 
-  .contact{
-  padding-left: 400px;
-  margin: 10px auto;
-  }
   /*Fonts and design*/
   html{
       min-height:100%;/* make sure it is at least as tall as the viewport */
@@ -299,7 +313,7 @@
      margin: 0;
       padding: 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     line-height: 1.6em;
   }
   .bg {
@@ -314,7 +328,7 @@
       left:0;
       right:0;
       overflow:hidden;
-      z-index:-1
+      z-index:-1;
   }
   header{
     font-family: 'Shadows Into Light', cursive;
@@ -323,7 +337,7 @@
     font-weight: 800;
   }
   .CVHeader1{
-     font-size: 70px;
+    font-size: 5vw;
     height:190px;
     text-align: center;
     vertical-align: middle;
@@ -402,7 +416,6 @@
           animation: pulsate 2s ease-in-out infinite;
           background: transparent;
           border: 2px solid #ce616e;
-          /*border: 2px solid rgba(37, 119, 186, .5);*/
           border-radius: 27px;
           content: "";
           display: block;
@@ -501,7 +514,7 @@
   .imgCont {
     float:center;
     line-height: 0;
-    padding-bottom: 50px;
+    padding: 5%;
     margin-left:auto;
     margin-right:auto;
   }
@@ -922,7 +935,6 @@
     -webkit-border-bottom-right-radius:80px 50px;
     -moz-border-radius-bottomright:80px 50px;
     border-bottom-right-radius:80px 50px;
-    /* reduce the damage in FF3.0 */
     display:block;
   }
 
@@ -944,7 +956,6 @@
     -webkit-border-bottom-right-radius:40px 50px;
     -moz-border-radius-bottomright:40px 50px;
     border-bottom-right-radius:40px 50px;
-    /* reduce the damage in FF3.0 */
     display:block;
   }
 
@@ -959,7 +970,7 @@
     height:10px;
     margin-right:45px;
     background:#f3961c;
-    /* css3 */
+    
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     border-radius:10px;
@@ -1004,8 +1015,9 @@
     background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/arrow.png);
     background-size:cover;
   }
+
   *{
    -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
-    box-sizing:border-box
+    box-sizing:border-box;
   }

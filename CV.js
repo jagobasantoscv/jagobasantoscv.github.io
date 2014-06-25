@@ -1,8 +1,4 @@
-var scroll_timer;
-    var displayed = false;
-    var $goTop = $('#goTop a');
-    var $window = $(window);
-    var top = $(document.body).children(0).position().top;
+
 /*navigation header*/
 $(document).on('scroll',function(){             
   // menu show and hidde       
@@ -28,6 +24,15 @@ $(function() {
     }
   });
 });
+// gorantz igo astiro
+  $(function () {
+    $('.scroll-top').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+  });
 
 //parallax
 $(window).scroll(function(e){
