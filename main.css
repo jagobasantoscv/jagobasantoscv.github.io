@@ -83,14 +83,13 @@
   }
   /*glyphs*/
   .ico{
-       background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/search.png);
+       background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/menu-icons.png);
     display: block;
     background-position: left center;
     background-repeat: no-repeat;
   }
   .man{
     width: 100%;
-    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/menu-icons.png);
     background-position: -10px 0px;
   }
   .globe{
