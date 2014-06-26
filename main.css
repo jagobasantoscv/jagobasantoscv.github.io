@@ -6,7 +6,7 @@
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/Loading.gif') 50% 50% no-repeat rgb(249,249,249);
+    background: url('https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/Loading.gif') 50% 50% no-repeat black;
   }
   /*navigation barra*/
   #navbar { 
@@ -82,29 +82,31 @@
   }
   /*glyphs*/
   .ico{
+       background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/search.png);
     display: block;
     background-position: left center;
     background-repeat: no-repeat;
   }
   .man{
     width: 100%;
-    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/man.png);
+    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/menu-icons.png);
+    background-position: -10px 0px;
   }
   .globe{
     width: 100%;
-    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/globe.png);
+    background-position: -10px -53px;
   }
   .chart{
     width: 100%;
-    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/chart.png);
+    background-position: -10px -106px;
   }
   .road{
     width: 100%;
-    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/road.png);
+    background-position: -10px -159px;
   }
   .search{
     width: 100%;
-    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/search.png);
+    background-position: -10px -212px;
   }
 .social-slide {
   cursor:pointer;
@@ -312,7 +314,6 @@
   height: 100%;
      margin: 0;
       padding: 0;
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
     line-height: 1.6em;
   }
@@ -347,13 +348,6 @@
     background-image:url('http://www.info4carekids.org.uk/images/contentPage/TitleBoxGreen.png');
     background-size:cover;
 
-  }
-
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 800;
-    src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxjZJchHK-lPtiIaM3GRtbZU.woff) format('woff');
   }
 
   /* pulsate */
