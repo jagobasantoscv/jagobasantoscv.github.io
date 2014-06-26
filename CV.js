@@ -2,7 +2,7 @@
 /*navigation header*/
 $(document).on('scroll',function(){             
   // menu show and hidde       
-  if(($(document).scrollTop()+1)>($("#Idcontent1").height())){
+  if(($(document).scrollTop()+1)>($("#principal").height())){
     $("header").removeClass("hhidden").addClass("hshowed");
   } else{
     $("header").removeClass("hshowed").addClass("hhidden");
