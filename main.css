@@ -139,7 +139,7 @@
   /*section.css*/
   #Idcontent1 {       background:url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/Computer.jpg), #104E8B;
   background-repeat:no-repeat;
-  background-position:800px 75%; 
+  background-position:25em 75%; 
   background-origin:padding-box;
   }
 
@@ -389,6 +389,22 @@
       opacity: 0;
     }
   }
+#mark1{
+  top:100em;
+    left:200em;
+}
+#mark2{
+    top:200em;
+    left:250em;
+}
+#mark3{
+    top:100em;
+    left:300em;
+}
+#mark4{
+    top:100em;
+    left:350em;
+}
   .map-location-marker {
         background-color: #ce616e;
         border-radius: 17px;
