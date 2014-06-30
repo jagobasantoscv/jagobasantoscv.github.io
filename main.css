@@ -108,6 +108,9 @@
     width: 100%;
     background-position: -10px -212px;
   }
+#contactlink{
+  clear:both;
+}
 .social-slide {
   cursor:pointer;
   height: 48px;
@@ -136,7 +139,7 @@
   /*section.css*/
   #Idcontent1 {       background:url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/Computer.jpg), #104E8B;
   background-repeat:no-repeat;
-  background-position:right center; 
+  background-position:85% 75%; 
   background-origin:padding-box;
   }
 
@@ -199,7 +202,7 @@
     margin-top:100px;
     margin-left:auto;
     margin-right:auto;
-    width:870px;
+    width:850px;
     padding: 5%;
   }
   .papers:before, .papers:after {
@@ -289,7 +292,6 @@
   #Idcontent6 { background:url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/flowerchucker2.jpg), #FFF;
   background-repeat:no-repeat;
   background-origin:padding-box;
-    background-position:0% 0%, 0% 0%;
   }
 #ContactInfo{
     padding-left: 50%;
@@ -310,9 +312,9 @@
     height: 100%;
      margin: 0;
       padding: 0;
-    font-size: 1.5vw;
+    font-size: 1.9vw;
     line-height: 1.6em;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Indie Flower', cursive;
   }
   .bg {
     -webkit-background-size: cover;
@@ -513,7 +515,7 @@
     
 .quote{ 
     background: none repeat scroll 0% 0% #FFF;
-    padding: 1em 2em;
+    padding: 0.5em 1em;
     line-height:normal;
     text-align:justify;
     text-indent:50px;
@@ -540,11 +542,11 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
   }
 
   .clip:hover {
-      cursor: pointer;
+    cursor: pointer;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     filter: none;
-     -webkit-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
     -moz-transform: scale(1.25);
     position: relative;
     z-index: 5;
@@ -871,8 +873,7 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
     width:10px;
     height:10px;
     margin-right:45px;
-    background:#f3961c;
-    
+    background:#f3961c; 
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     border-radius:10px;
@@ -892,12 +893,13 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
   /*map*/
 #mapContainer{
   top: 100px;
-  right:80px;
+  right:7em;
   position: relative;
+  text-align:center;
 }
   #map{
     height:300px;
-    width:100%;
+    width:80%;
     float:right;
     border: 2px solid;
     border-radius: 25px;
