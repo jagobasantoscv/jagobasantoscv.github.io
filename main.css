@@ -391,7 +391,7 @@
     }
   }
 #mark1{
-  top:100em;
+    top:100em;
     left:200em;
 }
 #mark2{
@@ -910,7 +910,7 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
   /*map*/
 #mapContainer{
   top: 100px;
-  right:7em;
+  right:7vw;
   position: relative;
   text-align:center;
 }
