@@ -65,21 +65,22 @@
     padding-top:10px;
     padding-left:40px;
     padding-bottom:10px;
+    font-size: 1.5vw;
   }
   .hhidden li a:hover{
     color: #EEE;
-    font-size: 30px;
+    font-size: inherit;
   }
   .hshowed li a{
     background-image:none;
     padding:10px 20px;
+    font-size: inherit;
   }
   .hshowed li a:hover{
     color: #666;
   }
   .hshowed {
     color: #666;
-    font-size: 30px;
   }
   /*glyphs*/
   .ico{
@@ -298,7 +299,7 @@
     margin: 10px auto;
 }
 
-  #worldMap img{
+  #worldMap{
   width:100%; 
   height:100%;
   }
@@ -310,8 +311,8 @@
   }
   body {
     height: 100%;
-     margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
     font-size: 1.9vw;
     line-height: 1.6em;
     font-family: 'Indie Flower', cursive;
@@ -562,8 +563,8 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     filter: none;
-    -webkit-transform: scale(1.25);
-    -moz-transform: scale(1.25);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
     position: relative;
     z-index: 5;
   }
@@ -933,6 +934,19 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
   }
   .arrowTop{
     background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/arrow.png);
+    background-size:cover;
+  }
+.CVIcon {
+      height: 40px;
+      position: fixed;
+      text-indent: -9999px;
+      width: 40px;
+      z-index: 9999;
+      bottom:4%;
+      right:1%
+  }
+.CVIcon{
+    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/CVnote.png);
     background-size:cover;
   }
 
