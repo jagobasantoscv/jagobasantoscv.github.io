@@ -53,10 +53,10 @@
     border-bottom: 0px;
     transition: all 0.5s ease-in-out;
   }
-  .hhidden .scroll-top {
+  .hhidden .hiddenIcon{
    display:none;
   }
-  .hshowed .scroll-top {
+  .hshowed .hiddenIcon{
    display: inline;
   }
   .hhidden li a{
@@ -923,30 +923,22 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
     box-shadow: 10px 10px 5px grey;
   }
   /*top*/
-  .scroll-top {
-      height: 40px;
+  .hiddenIcon{
+    height: 40px;
       position: fixed;
       text-indent: -9999px;
       width: 40px;
       z-index: 9999;
-      bottom:2%;
-      right:1%
+      right:10px;
   }
   .arrowTop{
+    bottom:55px;
     background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/arrow.png);
     background-size:cover;
   }
 .CVIcon {
-      height: 40px;
-      position: fixed;
-      text-indent: -9999px;
-      width: 40px;
-      z-index: 9999;
-      bottom:4%;
-      right:1%
-  }
-.CVIcon{
-    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/CVnote.png);
+      bottom:10px;
+        background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/glyph/CVnote.png);
     background-size:cover;
   }
 
