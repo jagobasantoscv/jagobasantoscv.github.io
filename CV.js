@@ -43,11 +43,11 @@ function parallax(){
   $('.bg').css('top',-(scrolled*0.2)+'px');
 }
 
-/*Loading*/
+/*Loading
 $(window).load(function() {
   $(".loader").fadeOut("slow");
   $(window).scrollTop(0);
-})
+})*/
 
 /*maps*/
 function initialize() {
@@ -79,3 +79,58 @@ window.onload = loadScript;
 
 
 /*position map markers*/
+
+$(document).ready(pos);
+$(window).resize(positionMapMarkers);
+function pos(){
+
+    var classes = {
+      mapClass: 'worldMap',
+      mapLocationMarker: 'map-location-marker',
+      markerClassPrefix: 'marker-'
+    };
+
+    var settings = {
+      mapWidth: 790,
+      mapHeight: 489,
+      markerLeft: '',
+      markerTop: ''
+    };
+
+    var ratio = settings.mapHeight/settings.mapWidth;
+
+    // -- End properties
+    positionMapMarkers();
+
+    // -- End public methods
+
+    function positionMapMarkers()
+    {
+      var s=0,
+          state,
+          states = ['getxo', 'austria', 'cuba', 'morocco', 'ireland'];
+
+      var l=0,
+          leftMarker,
+          leftMarkers = [30, 89, 516, 559, 717];
+
+      var t=0,
+          topMarker,
+          topMarkers = [2750, 2750, 2750, 2750, 2750];
+
+      var mapWidthD = $('.' + classes.mapClass).width();
+      var mapHeightD = ratio * mapWidthD;
+
+      while(leftMarker = leftMarkers[l++], topMarker = topMarkers[t++], state = states[s++]) {
+        settings.markerLeft = mapWidthD * leftMarker / settings.mapWidth;
+        settings.markerTop = mapHeightD * topMarker / settings.mapHeight;
+
+        $('.' + classes.markerClassPrefix + state).css({
+          'left': settings.markerLeft + 'px',
+          'top': settings.markerTop + 'px',
+        });
+
+        $('.' + classes.markerClassPrefix + state).show();
+      }
+    }  
+}

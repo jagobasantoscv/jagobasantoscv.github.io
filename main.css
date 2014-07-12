@@ -183,8 +183,7 @@
   }
 
   #Idcontent3 {
-    background: none repeat scroll 0% 0% #D9D9D9;
-    padding:6% 0%;  
+    background: none repeat scroll 0% 0% #D9D9D9; 
   }
   #Idcontent4 td{
     padding:2%;
@@ -300,9 +299,15 @@
     margin: 10px auto;
 }
 
-  #worldMap{
-  width:100%; 
-  height:100%;
+  .worldMap{
+      display: block;
+      left: 0;
+      max-width: 790px;
+      position: absolute;
+      position: relative;
+      top: 0;
+      width: 100%;
+      z-index: 1;
   }
 
   /*Fonts and design*/
@@ -392,36 +397,17 @@
     }
   }
 
-#mark1 
-{ display: block; position: absolute; text-indent: -999em; overflow: hidden; 
-}
-
-#mark2{
-    top:200em;
-    left:250em;
-}
-#mark3{
-    top:100em;
-    left:300em;
-}
-#mark4{
-    top:100em;
-    left:350em;
-}
   .map-location-marker {
-    display: block; 
-    position: absolute; 
-    text-indent: -999em; 
-    overflow: hidden;
     background-color: #ce616e;
-    border-radius: 17px;
-    height: 17px;
-    -webkit-transition: .2s all ease-in-out;
-        -moz-transition: .2s all ease-in-out;
-        -o-transition: .2s all ease-in-out;
-        transition: .2s all ease-in-out;
-        width: 17px;
-        z-index: 2;
+      border-radius: 17px;
+      height: 17px;
+      position: absolute;
+      -webkit-transition: .2s all ease-in-out;
+      -moz-transition: .2s all ease-in-out;
+      -o-transition: .2s all ease-in-out;
+      transition: .2s all ease-in-out;
+      width: 17px;
+      z-index: 2;
       }
   .map-location-marker:hover { background-color: #e86c78; }
   .map-location-marker:after {
