@@ -43,11 +43,11 @@ function parallax(){
   $('.bg').css('top',-(scrolled*0.2)+'px');
 }
 
-/*Loading
+/*Loading*/
 $(window).load(function() {
   $(".loader").fadeOut("slow");
   $(window).scrollTop(0);
-})*/
+})
 
 /*maps*/
 function initialize() {
@@ -91,7 +91,7 @@ function pos(){
     };
 
     var settings = {
-      mapWidth: 790,
+      mapWidth: 1500,
       mapHeight: 489,
       markerLeft: '',
       markerTop: ''
@@ -112,11 +112,11 @@ function pos(){
 
       var l=0,
           leftMarker,
-          leftMarkers = [30, 89, 516, 559, 717];
+          leftMarkers = [649, 730, 295, 600, 630];
 
       var t=0,
           topMarker,
-          topMarkers = [2750, 2750, 2750, 2750, 2750];
+          topMarkers = [3300, 3275, 3400, 3375, 3245];
 
       var mapWidthD = $('.' + classes.mapClass).width();
       var mapHeightD = ratio * mapWidthD;
