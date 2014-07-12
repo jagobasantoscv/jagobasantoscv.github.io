@@ -46,6 +46,7 @@ function parallax(){
 /*Loading*/
 $(window).load(function() {
   $(".loader").fadeOut("slow");
+  $(window).scrollTop(0);
 })
 
 /*maps*/
