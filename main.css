@@ -288,6 +288,25 @@
     background: rgba(23, 146, 94, 0.79);
     padding-bottom: 300px;
   }
+.inet{
+  background-image:
+ url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/timeline/inet.png);
+  height:60px;
+  width:103px;
+  margin-left:200px;
+  }
+.accenture{
+  background-image:
+ url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/timeline/accenture.png);
+  height:60px;
+  width:103px;
+  }
+.deusto{
+  background-image:
+ url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/timeline/deusto.jpg);
+  height:60px;
+  width:103px;
+  }
   section{
     padding: 100px 10px 550px;
     box-shadow: 2px 8px 2px rgba(0,0,0,0.3);
@@ -632,21 +651,20 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
     background: rgb(248,248,248);
     padding: 6px 10px;
     border-radius: 5px;
-
     font-weight: 600;
     text-align: left;
   }
 
   .direction-l .flag {
-    -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-    -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-    box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,2), 0 0 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: -1px 1px 1px rgba(0,0,0,2), 0 0 1px rgba(0,0,0,0.15);
+    box-shadow: -1px 1px 1px rgba(0,0,0,2), 0 0 1px rgba(0,0,0,0.15);
   }
 
   .direction-r .flag {
-    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,2), 0 0 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,2), 0 0 1px rgba(0,0,0,0.15);
+    box-shadow: 1px 1px 1px rgba(0,0,0,2), 0 0 1px rgba(0,0,0,0.15);
   }
 
   .direction-l .flag:before,
