@@ -9,6 +9,8 @@ BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
+ExpiresDefault "access plus 1 month"
+ExpiresByType text/cache-manifest "access plus 0 seconds"
 ExpiresByType img/jpg "access plus 1 year"
 ExpiresByType img/jpeg "access plus 1 year"
 ExpiresByType img/gif "access plus 1 year"
