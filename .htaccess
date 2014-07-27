@@ -1,4 +1,4 @@
-FileETag None
+FileETag none
 
 # Enable GZIP
 <ifmodule mod_deflate.c>
