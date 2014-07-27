@@ -109,8 +109,9 @@
     width: 100%;
     background-position: -10px -212px;
   }
-#contactlink{
+.contactlink{
   clear:both;
+  cursor:default;
 }
 .social-slide {
   cursor:pointer;
@@ -281,7 +282,7 @@
   width:100%;
   }
 
-  #label{
+  .label{
     padding:1%;
   }
   #Idcontent5{
