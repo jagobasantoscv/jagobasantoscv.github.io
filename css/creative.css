@@ -1,7 +1,7 @@
 
 .gm {
     padding: 50px;
-    background-image: url(../img/gm.jpg);
+    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/gm.jpg);
     background-repeat:no-repeat;
     background-position: right;
     right: 5%; 
@@ -9,7 +9,7 @@
 
 .devop {
     padding: 50px;
-    background-image: url(../img/devop.png);
+    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/devop.png);
     background-repeat:no-repeat;
     background-position: right;
     right: 5%; 
@@ -17,7 +17,7 @@
 
 .vcc {
     padding: 50px;
-    background-image: url(../img/vcc.png);
+    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/vcc.png);
     background-repeat:no-repeat;
     background-position: right;
     text-align: left;
@@ -26,7 +26,7 @@
 
 .man {
     padding: 50px;
-    background-image: url(../img/man.png);
+    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/man.png);
     background-repeat:no-repeat;
     background-position: right;
     text-align: left;
@@ -252,7 +252,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/img/100_2678.jpg);
+    background-image: url(https://raw.githubusercontent.com/jagobasantoscv/jagobasantoscv.github.io/master/img/img/100_2678.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
